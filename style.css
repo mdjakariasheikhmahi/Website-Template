@@ -1,7 +1,13 @@
 *{
   padding: 0;
-  margin: 0;
+  margin: 50;
 }
+
+ /* ---- body ---- */
+ .body-width
+ {
+  /* width: 96%; */
+ }
 
 /* Font */
 .raleway-normal{
@@ -32,12 +38,17 @@
 
 /*  ----- header -----  */
 
+      header{
+        background-image: url('icon/Hero-bg.png');
+        width: 100%;
+      }
+
     /* nav style */
     nav{
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin: 50px 150px;
+      margin: 0px 150px;
     }
 
     .nav-title{
@@ -49,3 +60,24 @@
     nav ul li{
       list-style: none;
     }
+
+/* ----- Banner ----- */
+    .banner{
+      text-align: center;
+      text-align: center;
+      padding: 150px;
+      margin: 0;
+    }
+
+    .banner-btn{
+      margin: 37px;
+    }
+
+    .banner-title{
+      font-size: 35px;
+    }
+
+
+
+
+
