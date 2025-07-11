@@ -31,6 +31,22 @@ body{
   background-color: #4E47FF;
  }
 
+ .btm-main:hover{
+  border: rgba(0, 0, 0, 0.849) solid 3px;
+ }
+ .box-btn:hover{
+  border: black solid 3px;
+ }
+
+ .home-bar li:hover{
+  border: black solid 1px;
+  padding: 3px;
+  border-radius: 5px;
+
+ }
+
+
+
 /*  ----- header -----  */
 
       header{
@@ -262,3 +278,36 @@ body{
   border: none;
   border-radius: 5px;
 }
+
+ /* ---- Footer ----- */
+
+ .footer-background{
+  background-color: #ffffff;
+  margin-top: 60px;
+  padding-top: 106px;
+  padding-bottom: 106px;
+  text-align: center;
+  box-shadow: #000000 0px 0px 1px 0px;
+ }
+   .footer-title{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+ }
+ .footer-description{
+  color:#8987A1;
+  font-size: 20px;
+ }
+
+ .home-bar{
+  display: flex;
+  gap: 48px;
+  justify-content:center;
+  padding-top: 20px;
+ }
+ 
+ .home ul li{
+ list-style-type: none;
+ color: #8987A1;
+ }
+
