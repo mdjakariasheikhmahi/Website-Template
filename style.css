@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+body{
+  background-color:rgba(247, 247, 247, 0.63);
+}
+
+
 /* Font */
 .raleway-normal{
   font-family: "Raleway", sans-serif;
@@ -63,7 +68,7 @@
     .banner-btn{
       margin: 37px;
     }
-    
+
     .banner-title{
       font-size: 35px;
       /* color: rgba(37, 36, 50, 1); */
@@ -115,7 +120,7 @@
 
     .newsletter-title{
       font-size: 38px;
-      font-weight: 600px;
+      font-weight: 500px;
       text-align: center;
       padding-bottom: 40px;
     }
@@ -135,10 +140,125 @@
       text-align: center;
     }
 
+     /* ----- revier ----- */
 
+     .revie-star{
+    display: flex;
+    padding: 24px 24px;
+}
 
+.card{
+    display: flex;
+    gap:20px;
+    padding: 150px;
+    padding-top: 50px;
+    justify-content:center;
+}
 
+.title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    padding-top: 137px;
+}
 
+.revie-title-description{
+    padding-left: 24px;
+}
 
+.revie-clint {
+    display: flex;
+    padding-left: 24px;
+    padding-top: 24px;
+}
 
+.revie-name{
+    padding-left: 6px;
+}
 
+.revie-pic img{
+    border-radius: 20px;
+}
+
+.revie-background{
+    background-color:#ffffff;
+    border: rgba(251, 239, 222, 0.885) 1px solid;
+    width: 360px;
+    height: 230px;
+    box-shadow: 0px 0px 2px 0px blanchedalmond;
+    border-radius: 15px;
+}
+.revie-sub-name{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(69, 69, 69, 0.745);
+}
+.revie-date{
+    font-size: 15px;
+    color: rgba(57, 57, 57, 0.467);
+}
+ /* ----- wc-mini ----- */
+  .bg-title{
+    font-size: 50px;
+    font-weight:bold;
+    /* padding-bottom:20px; */
+  }
+
+  .bg-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  .wc-big-pic{
+    padding-top: 20px;
+    width: 840px;
+    height: 364px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+  }
+  
+  .title-pic{
+  background-color:#ffffffa2;
+  width:1140px;
+  height: 650px;
+  padding: 70px 150px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: #252432 0px 0px 1px 0px;
+  border: none;
+  }
+  .background-title{
+    text-align: center;
+  }
+ /* -----  Send Massage -----   */
+
+ .massage-box{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 92px;
+ }
+ label{
+  display: block;
+ }
+.box{
+  padding: 10px;
+  border:none;
+  border-radius: 5px;
+}
+
+.massage-title{
+  font-size: 97px;
+}
+ a .btm-main-box{
+  margin: 10px;
+}
+.box-btn{
+  align-items: center;
+  padding: 10px 155px;
+  margin-left: 10px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
