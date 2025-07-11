@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 /* Font */
 .raleway-normal{
   font-family: "Raleway", sans-serif;
@@ -5,6 +10,42 @@
   font-style: normal;
 }
 
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 
-/* header */
+/* BUTTON */
+ .btm-main{
+  font-size: 16px;
+  font-weight:bold;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background-color: #4E47FF;
+ }
+
+
+
+/*  ----- header -----  */
+
+    /* nav style */
+    nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 50px 150px;
+    }
+
+    .nav-title{
+      font-size: 34px;
+      font-weight: 900;
+      color: #4E47FF;
+    }
+
+    nav ul li{
+      list-style: none;
+    }
